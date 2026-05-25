@@ -243,15 +243,6 @@ const config = {
 		{
 			"go": "🚀 前往",
 			"img": "/img/xmkp/sunshine.jpg",
-			"title": "博客",
-			"subtitle": "止渊的博客",
-			"text": "跳转到我的另一个网站（专门写博客的内容）",
-			"url": "https://songnas.dpdns.org/",
-			"show": false
-		},
-		{
-			"go": "🚀 前往",
-			"img": "/img/xmkp/sunshine.jpg",
 			"title": "edgetunnel 设置页面",
 			"subtitle": "我已经部署好的魔法",
 			"text": "还可以使用起来还算是好用，跟花钱的差不多，就是可用数量少",
@@ -418,7 +409,7 @@ const config = {
 			"subtitle": "购买梯子流量的网站",
 			"text": "目前发现最便宜的网站",
 			"url": "https://pub0.riolu.icu/",
-			"show": true
+			"show": false
 		},
 		{
 			"go": "🚀 前往",
@@ -432,10 +423,10 @@ const config = {
 		{
 			"go": "🚀 前往",
 			"img": "/img/xmkp/sunshine.jpg",
-			"title": "我的FnOS",
-			"subtitle": "我自己的服务器",
-			"text": "自己的服务器",
-			"url": "http://vip.xg.frp.one:38251/",
+			"title": "学校的服务器",
+			"subtitle": "学校的服务器",
+			"text": "g108服务器",
+			"url": "http://47.115.202.254:8866/",
 			"show": false
 		},
 		{
