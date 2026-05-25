@@ -15,7 +15,7 @@ const config = {
 	},
 	"brightness": 85,
 	"blur": 5,
-	"adminPassword": "alan",
+	"adminPassword": "6634",
 	"tags": [
 		"乐观开朗",
 		"温柔体贴",
