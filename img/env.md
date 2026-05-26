@@ -124,7 +124,7 @@
 	},
 	"projectcards": [{
 		"go": "🚀 前往",
-		"img": "/img/sunshine.jpg",
+		"img": "/img/xmkp/preview.gif",
 		"title": "Project 1",
 		"subtitle": "1,000 miles of wonder",
 		"text": "If you see this line, I've managed to get your attention.",
@@ -132,7 +132,7 @@
 		"show": false
 	}, {
 		"go": "🗂️ 前往",
-		"img": "/img/sunshine.jpg",
+		"img": "/img/xmkp/preview.gif",
 		"title": "Project 2",
 		"subtitle": "2,000 miles of wonder",
 		"text": "If you see this line, I've managed to get your attention.",
@@ -140,7 +140,7 @@
 		"show": false
 	}, {
 		"go": "📝 前往",
-		"img": "/img/sunshine.jpg",
+		"img": "/img/xmkp/preview.gif",
 		"title": "Project 3",
 		"subtitle": "3,000 miles of wonder",
 		"text": "If you see this line, I've managed to get your attention.",
@@ -148,7 +148,7 @@
 		"show": false
 	}, {
 		"go": "👍 前往",
-		"img": "/img/sunshine.jpg",
+		"img": "/img/xmkp/preview.gif",
 		"title": "Project 4",
 		"subtitle": "4,000 miles of wonder",
 		"text": "If you see this line, I've managed to get your attention.",
@@ -156,7 +156,7 @@
 		"show": false
 	}, {
 		"go": "🗃 前往",
-		"img": "/img/sunshine.jpg",
+		"img": "/img/xmkp/preview.gif",
 		"title": "Project 5",
 		"subtitle": "5,000 miles of wonder",
 		"text": "If you see this line, I've managed to get your attention.",
@@ -164,7 +164,7 @@
 		"show": false
 	}, {
 		"go": "🎨 前往",
-		"img": "/img/sunshine.jpg",
+		"img": "/img/xmkp/preview.gif",
 		"title": "Project 6",
 		"subtitle": "6,000 miles of wonder",
 		"text": "If you see this line, I've managed to get your attention.",
@@ -172,7 +172,7 @@
 		"show": false
 	}, {
 		"go": "💍 前往",
-		"img": "/img/sunshine.jpg",
+		"img": "/img/xmkp/preview.gif",
 		"title": "Project 7",
 		"subtitle": "7,000 miles of wonder",
 		"text": "If you see this line, I've managed to get your attention.",
@@ -180,7 +180,7 @@
 		"show": false
 	}, {
 		"go": "🔍 前往",
-		"img": "/img/sunshine.jpg",
+		"img": "/img/xmkp/preview.gif",
 		"title": "Project 8",
 		"subtitle": "8,000 miles of wonder",
 		"text": "If you see this line, I've managed to get your attention.",
