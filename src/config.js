@@ -27,7 +27,7 @@ const config = {
 		"pc": {
 			"type": "video",
 			"datainfo": {
-				"title": "向往航天的女孩",
+				"title": "诺叶睦",
 				"preview": "/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane-pre.webm",
 				"url": "/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane.webm"
 			}
