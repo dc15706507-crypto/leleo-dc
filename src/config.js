@@ -28,11 +28,11 @@ const config = {
 	],
 	"background": {
 		"pc": {
-			"type": "video",
+			"type": "pic",
 			"datainfo": {
-				"title": "向往航天的女孩",
-				"preview": "/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane-pre.webm",
-				"url": "/img/wallpaper/dynamic/向往航天的女孩/Toy-Aeroplane.webm"	
+				"title": "诺叶睦",
+				"preview": "/img/wallpaper/dynamic/诺叶睦/preview - pre.jpg",
+				"url": "/img/wallpaper/dynamic/诺叶睦/preview.jpg"	
 			}
 		},
 		"mobile": {
