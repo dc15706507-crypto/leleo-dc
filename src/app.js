@@ -146,41 +146,48 @@ export default {
           config.avatar,
           ...config.projectcards.map(item => item.img)
         ];
-        return new Promise((resolve, reject) => {
+        return new Promise((resolve) => {
           const imagePromises = imageUrls.map((url) => {
-            return new Promise((resolve, reject) => {
+            return new Promise((resolve) => {
                 const imgs = new Image();
                 imgs.src = url;
                 imgs.onload = () => resolve();
-                imgs.onerror = (err) => reject(err);
+                imgs.onerror = () => resolve();  // 图片加载失败也不阻塞页面
             });
           })
 
-          // 设置超时机制：2.5秒
+          // 设置超时机制：5秒（中国网络可能较慢）
           const timeoutPromise = new Promise((resolve) => {
             setTimeout(() => {
               resolve();
-            }, 2500);
+            }, 5000);
           });
           
           // 等待所有图片加载完成或超时
-          Promise.race([Promise.all(imagePromises), timeoutPromise]).then(()=>{
-            if(imageurl){
-              const img = new Image();
-              img.src = imageurl;
-              // resolve() 函数通将一个 Promise 对象从未完成状态转变为已完成状态
-              img.onload = () => {resolve();};
-              img.onerror = (err) => {reject(err);};
-            }else{
-              const video = this.$refs.VdPlayer;
-              video.onloadedmetadata = () => {
-                setTimeout(() => {
-                }, "200");  
-                resolve();
-              };
-              video.onerror = (err) => {resolve();};
-            }
-          })
+          Promise.race([Promise.all(imagePromises), timeoutPromise])
+            .then(()=>{
+              if(imageurl){
+                const img = new Image();
+                img.src = imageurl;
+                img.onload = () => {resolve();};
+                img.onerror = () => {resolve();};  // 背景图失败也不阻塞
+              }else{
+                const video = this.$refs.VdPlayer;
+                if(video) {
+                  video.onloadedmetadata = () => {
+                    setTimeout(() => {}, "200");
+                    resolve();
+                  };
+                  video.onerror = () => {resolve()};
+                } else {
+                  resolve();
+                }
+              }
+            })
+            .catch(() => {
+              // Promise.race 被拒绝时也要放行（关键修复！）
+              resolve();
+            });
         });
      };
 
