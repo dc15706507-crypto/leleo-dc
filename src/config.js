@@ -107,7 +107,7 @@ const config = {
 	"musicPlayer": {
 		"server": "netease",
 		"type": "playlist",
-		"id": "2028178887"
+		"id": ["2028178887", "916950336"]
 	},
 	"wallpaper": {
 		"pic": [

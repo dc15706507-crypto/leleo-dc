@@ -327,12 +327,18 @@ export default {
     async getMusicInfo(){
       this.musicinfoLoading = true;
       try {
-        const response = await fetch(`https://api.i-meto.com/meting/api?server=${this.configdata.musicPlayer.server}&type=${this.configdata.musicPlayer.type}&id=${this.configdata.musicPlayer.id}`
-        );
-        if (!response.ok) {
-          throw new Error('网络请求失败');
+        const ids = Array.isArray(this.configdata.musicPlayer.id)
+          ? this.configdata.musicPlayer.id
+          : [this.configdata.musicPlayer.id];
+        const allSongs = [];
+        for (const id of ids) {
+          const response = await fetch(`https://api.i-meto.com/meting/api?server=${this.configdata.musicPlayer.server}&type=${this.configdata.musicPlayer.type}&id=${id}`);
+          if (response.ok) {
+            const songs = await response.json();
+            allSongs.push(...songs);
+          }
         }
-        this.musicinfo = await response.json();
+        this.musicinfo = allSongs;
         this.musicinfoLoading = false;
       } catch (error) {
         console.error('请求失败:', error);
