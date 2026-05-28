@@ -342,6 +342,7 @@ export default {
         this.musicinfoLoading = false;
       } catch (error) {
         console.error('请求失败:', error);
+        this.musicinfoLoading = false;
       }
       
     },
