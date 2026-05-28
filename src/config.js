@@ -557,7 +557,7 @@ const config = {
 		},
 		{
 			"go": "🦞 前往",
-			"img": "/img/xmkp/lobster-ai.svg",
+			"img": "/img/xmkp/lobster-ai.png",
 			"title": "牛筋AI",
 			"subtitle": "我的牛筋AI",
 			"text": "我养的龙虾",
