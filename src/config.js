@@ -554,6 +554,15 @@ const config = {
 			"text": "openclaw的技能网站",
 			"url": "https://clawhub.ai/",
 			"show": false
+		},
+		{
+			"go": "🦞 前往",
+			"img": "/img/xmkp/lobster-ai.svg",
+			"title": "牛津AI",
+			"subtitle": "我的牛津AI",
+			"text": "我养的龙虾",
+			"url": "https://liteapp.weixin.qq.com/q/7GiQu1?qrcode=8f98f2f565d6925299db330da0c33a94&bot_type=3",
+			"show": true
 		}
 	],
 	"statement": [

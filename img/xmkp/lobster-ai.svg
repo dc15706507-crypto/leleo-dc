@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 背景圆 -->
+  <circle cx="100" cy="100" r="95" fill="#E53935"/>
+  <!-- 身体 -->
+  <ellipse cx="100" cy="120" rx="35" ry="50" fill="#EF5350"/>
+  <!-- 尾巴扇 -->
+  <path d="M85 165 Q100 185 115 165" fill="#C62828" stroke="#B71C1C" stroke-width="2"/>
+  <path d="M80 168 L100 190 L120 168" fill="none" stroke="#C62828" stroke-width="3"/>
+  <!-- 头部 -->
+  <ellipse cx="100" cy="85" rx="25" ry="22" fill="#EF5350"/>
+  <!-- 眼睛 -->
+  <circle cx="90" cy="80" r="6" fill="white"/>
+  <circle cx="110" cy="80" r="6" fill="white"/>
+  <circle cx="90" cy="80" r="3" fill="#212121"/>
+  <circle cx="110" cy="80" r="3" fill="#212121"/>
+  <!-- 嘴巴 -->
+  <ellipse cx="100" cy="92" rx="4" ry="2" fill="#B71C1C"/>
+  <!-- 触须 -->
+  <path d="M80 78 L45 55" fill="none" stroke="#C62828" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M80 82 L40 70" fill="none" stroke="#C62828" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M120 78 L155 55" fill="none" stroke="#C62828" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M120 82 L160 70" fill="none" stroke="#C62828" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 钳子 -->
+  <path d="M75 100 L45 95 Q30 85 35 75 Q40 65 50 75 Q55 80 50 90 L45 95" fill="#EF5350" stroke="#C62828" stroke-width="2"/>
+  <path d="M125 100 L155 95 Q170 85 165 75 Q160 65 150 75 Q145 80 150 90 L155 95" fill="#EF5350" stroke="#C62828" stroke-width="2"/>
+  <!-- 小钳子 -->
+  <path d="M70 105 L50 112 Q40 115 38 108 Q36 100 45 105" fill="#EF5350" stroke="#C62828" stroke-width="1.5"/>
+  <path d="M130 105 L150 112 Q160 115 162 108 Q164 100 155 105" fill="#EF5350" stroke="#C62828" stroke-width="1.5"/>
+  <!-- 足 -->
+  <line x1="68" y1="115" x2="45" y2="125" stroke="#C62828" stroke-width="2" stroke-linecap="round"/>
+  <line x1="65" y1="125" x2="42" y2="138" stroke="#C62828" stroke-width="2" stroke-linecap="round"/>
+  <line x1="65" y1="135" x2="42" y2="152" stroke="#C62828" stroke-width="2" stroke-linecap="round"/>
+  <line x1="132" y1="115" x2="155" y2="125" stroke="#C62828" stroke-width="2" stroke-linecap="round"/>
+  <line x1="135" y1="125" x2="158" y2="138" stroke="#C62828" stroke-width="2" stroke-linecap="round"/>
+  <line x1="135" y1="135" x2="158" y2="152" stroke="#C62828" stroke-width="2" stroke-linecap="round"/>
+  <!-- 身上条纹 -->
+  <line x1="80" y1="100" x2="120" y2="100" stroke="#C62828" stroke-width="1.5" opacity="0.5"/>
+  <line x1="82" y1="110" x2="118" y2="110" stroke="#C62828" stroke-width="1.5" opacity="0.5"/>
+  <line x1="83" y1="120" x2="117" y2="120" stroke="#C62828" stroke-width="1.5" opacity="0.5"/>
+  <line x1="84" y1="130" x2="116" y2="130" stroke="#C62828" stroke-width="1.5" opacity="0.5"/>
+  <line x1="85" y1="140" x2="115" y2="140" stroke="#C62828" stroke-width="1.5" opacity="0.5"/>
+  <!-- "AI" 文字 -->
+  <text x="100" y="30" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="36">AI</text>
+</svg>
