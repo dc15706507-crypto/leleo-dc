@@ -330,15 +330,12 @@ export default {
         const ids = Array.isArray(this.configdata.musicPlayer.id)
           ? this.configdata.musicPlayer.id
           : [this.configdata.musicPlayer.id];
-        const allSongs = [];
-        for (const id of ids) {
-          const response = await fetch(`https://api.i-meto.com/meting/api?server=${this.configdata.musicPlayer.server}&type=${this.configdata.musicPlayer.type}&id=${id}`);
-          if (response.ok) {
-            const songs = await response.json();
-            allSongs.push(...songs);
-          }
-        }
-        this.musicinfo = allSongs;
+        const fetches = ids.map(id =>
+          fetch(`https://api.i-meto.com/meting/api?server=${this.configdata.musicPlayer.server}&type=${this.configdata.musicPlayer.type}&id=${id}`)
+            .then(r => r.ok ? r.json() : [])
+        );
+        const results = await Promise.all(fetches);
+        this.musicinfo = results.flat();
         this.musicinfoLoading = false;
       } catch (error) {
         console.error('请求失败:', error);
