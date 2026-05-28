@@ -561,7 +561,7 @@ const config = {
 			"title": "牛筋AI",
 			"subtitle": "我的牛筋AI",
 			"text": "我养的龙虾",
-			"url": "https://liteapp.weixin.qq.com/q/7GiQu1?qrcode=8f98f2f565d6925299db330da0c33a94&bot_type=3",
+			"url": "http://127.0.0.1:18789/chat?session=agent%3Amain%3Aopenclaw-weixin%3Adirect%3Ao9cq803yp6ytfgjdsywx-6os0tcy%40im.wechat",
 			"show": true
 		}
 	],
