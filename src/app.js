@@ -64,7 +64,7 @@ export default {
       editingProjectIndex: null,
       newProject: {
         go: '',
-        img: '',
+        img: '/img/xmkp/default-cover.jpg',
         title: '',
         subtitle: '',
         text: '',
@@ -518,7 +518,7 @@ export default {
       // 重置表单
       this.newProject = {
         go: '',
-        img: '',
+        img: '/img/xmkp/default-cover.jpg',
         title: '',
         subtitle: '',
         text: '',
@@ -556,7 +556,7 @@ export default {
       // 重置表单
       this.newProject = {
         go: '',
-        img: '',
+        img: '/img/xmkp/default-cover.jpg',
         title: '',
         subtitle: '',
         text: '',

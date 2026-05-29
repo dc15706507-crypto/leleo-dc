@@ -242,7 +242,7 @@ const config = {
 	"projectcards": [
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "博客",
 			"subtitle": "止渊的博客",
 			"text": "跳转到我的另一个网站（专门写博客的内容）",
@@ -251,7 +251,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "edgetunnel 设置页面",
 			"subtitle": "我已经部署好的魔法",
 			"text": "还可以使用起来还算是好用，跟花钱的差不多，就是可用数量少",
@@ -260,7 +260,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "实时新闻",
 			"subtitle": "Rss爬取新闻",
 			"text": "简单爬取总结新闻的网站",
@@ -278,7 +278,7 @@ const config = {
 		},
 		{
 			"go": "🗂️ 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "网盘",
 			"subtitle": "OpenList网盘",
 			"text": "现在使用replit部署openlist网站，进行文件储存中转，使用自搭建的服务器做内网穿透上公网；openlist来代理使其变成公网服务器网盘（openlist可以代理所有市面上的网盘）",
@@ -359,7 +359,7 @@ const config = {
 		},
 		{
 			"go": "🔍 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "美国身份信息",
 			"subtitle": "其实啥身份都有",
 			"text": "好用但是不常用，而且自带邮箱只是需要注册登入（还没试过要不要钱）",
@@ -368,7 +368,7 @@ const config = {
 		},
 		{
 			"go": "🔍 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "infinityfree",
 			"subtitle": "免费域名和服务器",
 			"text": "不知道好不好用，但是可以申请免费的服务器和域名",
@@ -377,7 +377,7 @@ const config = {
 		},
 		{
 			"go": "🔍 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "稀土掘金",
 			"subtitle": "程序员必备网站",
 			"text": "跟csdn差不多但是没那么坑",
@@ -386,7 +386,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "免费梯子部署方法",
 			"subtitle": "自己搭建",
 			"text": "一个博主研究的自己搭建免费梯子，部署很简单，全部是使用cf来进行部署的，并且给了免费域名获取的链接\n可免费注册的CNAME域名\nDNSHE：https://www.dnshe.com/ 部分域名可托管CF，邀请码：CY483A4A4B\nDigitalPlat: https://domain.digitalplat.org/ 部分域名可托管CF\nClouDNS：https://www.cloudns.net/index/lang/chs\ndynv6：https://dynv6.com/\nZoneABC：https://zoneabc.net/",
@@ -395,7 +395,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "DNSHE免费域名管理平台",
 			"subtitle": "免费域名",
 			"text": "可以获取三个免费域名并代理",
@@ -404,7 +404,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "ITDOG",
 			"subtitle": "在线ping",
 			"text": "用于测试域名或者ip通讯与联通情况",
@@ -413,7 +413,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "精灵学院",
 			"subtitle": "购买梯子流量的网站",
 			"text": "目前发现最便宜的网站",
@@ -431,7 +431,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "我的FnOS",
 			"subtitle": "我自己的服务器",
 			"text": "自己的服务器",
@@ -440,7 +440,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "网站线路监测",
 			"subtitle": "uptimerobot网站线路的检测",
 			"text": "查看是否正常启动网站",
@@ -449,7 +449,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "mindows",
 			"subtitle": "手机平板刷windows系统的网站",
 			"text": "永久免费可以查找可以刷的机型",
@@ -458,7 +458,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "图床",
 			"subtitle": "免费储存照片的网站",
 			"text": "最大支持单次上传5mb的图片",
@@ -467,7 +467,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "随机密码生成器",
 			"subtitle": "随机密码生成器",
 			"text": "随机生成密码",
@@ -476,7 +476,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "X黑手网",
 			"subtitle": "网络安全学习软件",
 			"text": "里面有大量的网络安全软件还有教程",
@@ -485,7 +485,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "全球新闻",
 			"subtitle": "MONITOR",
 			"text": "GitHub开源项目，可以提取全球的内容，随时查看国际事件",
@@ -494,7 +494,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "ChmlFrp",
 			"subtitle": "内网穿透",
 			"text": "内网穿透网站自带部署免费域名和ssl认证",
@@ -503,7 +503,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "replit服务器（alist部署）",
 			"subtitle": "暂时部署的alist，一个动态虚拟免费服务器",
 			"text": "不知道可以部署几个但是可以部署openlist",
@@ -512,7 +512,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "新疆幻城网安科技公益大模型api",
 			"subtitle": "新疆幻城网安科技公益大模型api",
 			"text": "免费api模型",
@@ -521,7 +521,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "国家超算互联网",
 			"subtitle": "国家超算互联网",
 			"text": "国家超算互联网；API购买",
@@ -530,7 +530,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "linuxmirrors",
 			"subtitle": "linuxmirrors",
 			"text": "Linux系统镜像源",
@@ -539,7 +539,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "NOVM.NET",
 			"subtitle": "NOVM.NET",
 			"text": "免费云服务，扣除的费用是网络使用费用",
@@ -548,7 +548,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/preview.gif",
+			"img": "/img/xmkp/default-cover.jpg",
 			"title": "clawhub",
 			"subtitle": "clawhub",
 			"text": "openclaw的技能网站",
