@@ -563,6 +563,15 @@ const config = {
 			"text": "我养的龙虾",
 			"url": "http://127.0.0.1:18789/chat?session=agent%3Amain%3Aopenclaw-weixin%3Adirect%3Ao9cq803yp6ytfgjdsywx-6os0tcy%40im.wechat",
 			"show": true
+		},
+		{
+			"go": "🚀 前往",
+			"img": "/img/xmkp/fnos-logo.png",
+			"title": "学校飞牛服务器",
+			"subtitle": "G108服务器",
+			"text": "学校G108机房的飞牛NAS服务器",
+			"url": "http://47.115.202.254:8866/",
+			"show": true
 		}
 	],
 	"statement": [
