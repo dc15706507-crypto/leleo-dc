@@ -242,7 +242,7 @@ const config = {
 	"projectcards": [
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/博客-favicon.ico",
 			"title": "博客",
 			"subtitle": "止渊的博客",
 			"text": "跳转到我的另一个网站（专门写博客的内容）",
@@ -260,7 +260,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/实时新闻-favicon.ico",
 			"title": "实时新闻",
 			"subtitle": "Rss爬取新闻",
 			"text": "简单爬取总结新闻的网站",
@@ -368,7 +368,7 @@ const config = {
 		},
 		{
 			"go": "🔍 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/infinityfree-favicon.ico",
 			"title": "infinityfree",
 			"subtitle": "免费域名和服务器",
 			"text": "不知道好不好用，但是可以申请免费的服务器和域名",
@@ -377,7 +377,7 @@ const config = {
 		},
 		{
 			"go": "🔍 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/稀土掘金-favicon.ico",
 			"title": "稀土掘金",
 			"subtitle": "程序员必备网站",
 			"text": "跟csdn差不多但是没那么坑",
@@ -386,7 +386,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/blog-favicon.ico",
 			"title": "免费梯子部署方法",
 			"subtitle": "自己搭建",
 			"text": "一个博主研究的自己搭建免费梯子，部署很简单，全部是使用cf来进行部署的，并且给了免费域名获取的链接\n可免费注册的CNAME域名\nDNSHE：https://www.dnshe.com/ 部分域名可托管CF，邀请码：CY483A4A4B\nDigitalPlat: https://domain.digitalplat.org/ 部分域名可托管CF\nClouDNS：https://www.cloudns.net/index/lang/chs\ndynv6：https://dynv6.com/\nZoneABC：https://zoneabc.net/",
@@ -395,7 +395,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/dnshe-favicon.ico",
 			"title": "DNSHE免费域名管理平台",
 			"subtitle": "免费域名",
 			"text": "可以获取三个免费域名并代理",
@@ -404,7 +404,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/itdog-favicon.ico",
 			"title": "ITDOG",
 			"subtitle": "在线ping",
 			"text": "用于测试域名或者ip通讯与联通情况",
@@ -431,7 +431,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/fnos-logo.png",
 			"title": "我的FnOS",
 			"subtitle": "我自己的服务器",
 			"text": "自己的服务器",
@@ -440,7 +440,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/网站线路监测-favicon.ico",
 			"title": "网站线路监测",
 			"subtitle": "uptimerobot网站线路的检测",
 			"text": "查看是否正常启动网站",
@@ -458,7 +458,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/图床-favicon.ico",
 			"title": "图床",
 			"subtitle": "免费储存照片的网站",
 			"text": "最大支持单次上传5mb的图片",
@@ -467,7 +467,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/随机密码生成器-favicon.ico",
 			"title": "随机密码生成器",
 			"subtitle": "随机密码生成器",
 			"text": "随机生成密码",
@@ -494,7 +494,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/chmlfrp-favicon.ico",
 			"title": "ChmlFrp",
 			"subtitle": "内网穿透",
 			"text": "内网穿透网站自带部署免费域名和ssl认证",
@@ -503,7 +503,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/replit-favicon.ico",
 			"title": "replit服务器（alist部署）",
 			"subtitle": "暂时部署的alist，一个动态虚拟免费服务器",
 			"text": "不知道可以部署几个但是可以部署openlist",
@@ -512,7 +512,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/api-favicon.ico",
 			"title": "新疆幻城网安科技公益大模型api",
 			"subtitle": "新疆幻城网安科技公益大模型api",
 			"text": "免费api模型",
@@ -521,7 +521,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/国家超算互联网-favicon.ico",
 			"title": "国家超算互联网",
 			"subtitle": "国家超算互联网",
 			"text": "国家超算互联网；API购买",
@@ -530,7 +530,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/linuxmirrors-favicon.ico",
 			"title": "linuxmirrors",
 			"subtitle": "linuxmirrors",
 			"text": "Linux系统镜像源",
@@ -539,7 +539,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/novmnet-favicon.ico",
 			"title": "NOVM.NET",
 			"subtitle": "NOVM.NET",
 			"text": "免费云服务，扣除的费用是网络使用费用",
@@ -548,7 +548,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/default-cover.jpg",
+			"img": "/img/xmkp/clawhub-favicon.ico",
 			"title": "clawhub",
 			"subtitle": "clawhub",
 			"text": "openclaw的技能网站",

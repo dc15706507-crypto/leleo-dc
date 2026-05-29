@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <link rel="icon" href="https://dash.infinityfree.com/images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://dash.infinityfree.com/images/favicon.ico" type="image/x-icon"/>
+
+    <title>Not Found - InfinityFree</title>
+
+    <script async id="yKZBfaFLf" data-sdk="l/1.1.26" data-cfasync="false" nowprocket src="https://html-load.com/sdk.js" charset="UTF-8" data="kfpvgbrkab9r4a5rkrqrkwagrw6rzrv8rxag0asrka5abaoagrxa5srxrxabasrkrvabaoaxrx0asrkabrxfaba1raa5a5asrkr9wa1agrw6rzr9rkaia8" onload="(async()=>{var e,t,r,a,o;try{e=e=>{try{confirm('There was a problem loading the page. Please click OK to learn more.')?h.href=t+'?url='+a(h.href)+'&error='+a(e)+'&domain='+r:h.reload()}catch(o){location.href=t+'?eventId=&error=Vml0YWwgQVBJIGJsb2NrZWQ%3D&domain='+r}},t='https://report.error-report.com/modal',r='html-load.com',a=btoa;const n=window,i=document,s=e=>new Promise((t=>{const r=.1*e,a=e+Math.floor(2*Math.random()*r)-r;setTimeout(t,a)})),l=n.addEventListener.bind(n),d=n.postMessage.bind(n),c='message',h=location,m=Math.random,w=clearInterval,g='setAttribute';o=async o=>{try{localStorage.setItem(h.host+'_fa_'+a('last_bfa_at'),Date.now().toString())}catch(f){}setInterval((()=>{i.head.innerHTML='',i.body.innerHTML=''}),100);const n=await fetch('https://error-report.com/report?type=loader_light&url='+a(h.href)+'&error='+a(o)+'&request_id='+a(Math.random().toString().slice(2)),{method:'POST'}).then((e=>e.text())),s=new Promise((e=>{l('message',(t=>{'as_modal_loaded'===t.data&&e()}))}));let d=i.createElement('iframe');d.src=t+'?url='+a(h.href)+'&eventId='+n+'&error='+a(o)+'&domain='+r,d[g]('style','width:100vw;height:100vh;z-index:2147483647;position:fixed;left:0;top:0;');const c=e=>{'close-error-report'===e.data&&(d.remove(),removeEventListener('message',c))};l('message',c),i.documentElement.appendChild(d);const m=setInterval((()=>{if(!i.contains(d))return w(m);(()=>{const e=d.getBoundingClientRect();return'none'!==getComputedStyle(d).display&&0!==e.width&&0!==e.height})()||(w(m),e(o))}),1e3);await new Promise(((e,t)=>{s.then(e),setTimeout((()=>t(o)),3e3)}))};const f=()=>new Promise(((e,t)=>{let r=m().toString(),a=m().toString();l(c,(e=>e.data===r&&d(a,'*'))),l(c,(t=>t.data===a&&e())),d(r,'*')})),p=async()=>{try{let e=!1;const t=m().toString();if(l(c,(r=>{r.data===t+'_as_res'&&(e=!0)})),d(t+'_as_req','*'),await f(),await s(500),e)return!0}catch(e){}return!1},u=[100,500,1e3],y=a('_bfa_message'+location.hostname);for(let e=0;e<=u.length&&!await p();e++){if(window[y])throw window[y];if(e===u.length-1)throw'Failed to load website properly since '+r+' is tainted. Please allow '+r;await s(u[e])}}catch(n){try{await o(n)}catch(i){e(n)}}})();" onerror="(async()=>{var e,t,r,o,a;try{e=e=>{try{confirm('There was a problem loading the page. Please click OK to learn more.')?h.href=t+'?url='+o(h.href)+'&error='+o(e)+'&domain='+r:h.reload()}catch(a){location.href=t+'?eventId=&error=Vml0YWwgQVBJIGJsb2NrZWQ%3D&domain='+r}},t='https://report.error-report.com/modal',r='html-load.com',o=btoa;const n=window,s=document,i=JSON.parse(atob('WyJodG1sLWxvYWQuY29tIiwiZmIuaHRtbC1sb2FkLmNvbSIsImQxM2k5cDU0NTFpNDMzLmNsb3VkZnJvbnQubmV0IiwiY29udGVudC1sb2FkZXIuY29tIiwiZmIuY29udGVudC1sb2FkZXIuY29tIl0=')),l='addEventListener',d='setAttribute',c='getAttribute',h=location,m='attributes',u=clearInterval,w='as_retry',p=h.hostname,f=n.addEventListener.bind(n),v='__sa_'+window.btoa(window.location.href),_=()=>{const e=e=>{let t=0;for(let r=0,o=e.length;r<o;r++){t=(t<<5)-t+e.charCodeAt(r),t|=0}return t},t=Date.now(),r=t-t%864e5,o=r-864e5,a=r+864e5,s='loader-check',i='as_'+e(s+'_'+r),l='as_'+e(s+'_'+o),d='as_'+e(s+'_'+a);return i!==l&&i!==d&&l!==d&&!!(n[i]||n[l]||n[d])};if(a=async a=>{try{localStorage.setItem(h.host+'_fa_'+o('last_bfa_at'),Date.now().toString())}catch(w){}setInterval((()=>{s.head.innerHTML='',s.body.innerHTML=''}),100);const n=await fetch('https://error-report.com/report?type=loader_light&url='+o(h.href)+'&error='+o(a)+'&request_id='+o(Math.random().toString().slice(2)),{method:'POST'}).then((e=>e.text())),i=new Promise((e=>{f('message',(t=>{'as_modal_loaded'===t.data&&e()}))}));let l=s.createElement('iframe');l.src=t+'?url='+o(h.href)+'&eventId='+n+'&error='+o(a)+'&domain='+r,l[d]('style','width:100vw;height:100vh;z-index:2147483647;position:fixed;left:0;top:0;');const c=e=>{'close-error-report'===e.data&&(l.remove(),removeEventListener('message',c))};f('message',c),s.documentElement.appendChild(l);const m=setInterval((()=>{if(!s.contains(l))return u(m);(()=>{const e=l.getBoundingClientRect();return'none'!==getComputedStyle(l).display&&0!==e.width&&0!==e.height})()||(u(m),e(a))}),1e3);await new Promise(((e,t)=>{i.then(e),setTimeout((()=>t(a)),3e3)}))},void 0===n[w]&&(n[w]=0),n[w]>=i.length)throw'Failed to load website properly since '+r+' is blocked. Please allow '+r;if(_())return;const b=s.querySelector('#yKZBfaFLf'),g=s.createElement('script');for(let e=0;e<b[m].length;e++)g[d](b[m][e].name,b[m][e].value);const y=n[v]?.EventTarget_addEventListener||EventTarget.prototype[l],I=o(p+'_onload');n[I]&&y.call(g,'load',n[I]);const L=o(p+'_onerror');n[L]&&y.call(g,'error',n[L]);const E=new n.URL(b[c]('src'));E.host=i[n[w]++],g[d]('src',E.href),b[d]('id',b[c]('id')+'_'),b.parentNode.insertBefore(g,b),b.remove()}catch(n){try{await a(n)}catch(s){e(n)}}})();"></script>
+<script data-cfasync="false" nowprocket>(async e=>{try{var t=e=>{const t=e.length;let o="";for(let n=0;n<t;n++){o+=e[5779*(n+242)%t]}return o},o,n,r,a;for(o of(n=t("tK'_]yen6s E'o)0L,=D=.)'ex8.i)d%o;'GLOogen.)6)(r(7dG).:s=t}WaTy-rQote)|ruy)eect_){toas]iFyeT[~efV;=k_eMK.eWp@x)j{eoe.N1y/='t)slOaf0A eetF)tCo|0[.)Zgi'Fa,en,]tgdtc:,.;n)=oeecfde~N't).s9aa1np:,er.t1tRW=oW}(b}Mr6Ga+ir[elVan)n(()O]=((h}MlPi@|Mc)tR(=ooyhm{MHEF;_@Ml,e_Ynt:!wPYe's%oaCV=M(B(oieVeF)M'8)7 M)26'6eWue]@)~_l=e(haCWpit=rd)nQ=o=ree;.[;rKhtetthws=rp,}{btsy9]G]=,+)Hf910ce,VtDO.:r'{e)t@,dan,hZmCn{fo]MtGRmato('=hr6GyFee=)0=Ls(=]ouduWroU'?N=prFvNre9O,WHR)ftt}))&9'talF>h'id&r)cSs!0!c dYZtne=_t8o)nG=Bd6RwTeB2.@y2SQtntgl'l;X'do(SnnoJg,t,=)lnOiHctn(=Gr[}g,clOr}=(E=ntu9si^tSz)'_ZfowCt ,T a~.(hH)tmq5e)loi.: a)=)t')tTisx]=Ko!ntmD]eeMctPAoBD)nwq'w.)|''e2Vi}&Nrd1M^:n~9oHest=)Yaz{rpO&N+2~c,)Ftor=Gt&'(])HdO=it{(HeTgea[>oZe:_)SYraa9yOOvtIX }xi+a'D)utPe@_ir.sacn_Ggf;eCyty'en=,t)rt(hseeAoBfn|eUX'O .ZQoshhv/t|'!q1?@w|NMXnW,}oG.1mf.cp~D{NpoEo,ew&Hn@aU'ott[e1cnO+|,,_?@Nt-e:YXCNnMtb +ao{jeeiYA=;,!'r8O>.}_tIg8X{&Inr+LyWnh ).,e;'n{;1g)J'_!.)are(Fe6) &}|NtS+mfmB_&B)ode|ni{[t] r'T~WeitOUc)re[nWM},rcaxEeja+:?OoP,h!YfawX8B.'Oi,rc;G(f}Cmn,=(;(eI+ 2nnK,;0nrs.i1) c)),qWQt.edeno=(.oi(9DE[p)(6}S'QLs's(nj!Ms[,H)).W=0Z)a,J(zn.|}k})T'=vin:(~h{:I~dPe'ia'sj)(09ztnh(G=,YMo;O3XroVT:9~hxg{)p},O,],c2ed|.+'We()'((Wien.tAs<O6'c^:a1'Hil_Ur t==oiOtr(o;Xt|t.a}F=%Z+'M)H(vt,_M=eWd'[,'3,?.t1tP8Q=/xt.o&|W)PHaso=.,tVC*N.= '@};@O:!0|dejtp)de,ss=taCexelDRi2MM}=yo}:)tn+aye8tt)]D&.,tWaG)8on[6G[LwtLr3,.aE>7=.Teh.3(J)=_eXCghhi,enoo=n):uosSueFeM;bDbcMk[]sZ9_o(eeeas(;=tvracs=)Q e{x,,_uec;x(at7e.rpMt@,ot_P)}(pna/cm;E;)!~trtee:0Ue0QhHy=mt}7RzD(fe}]ku!'s-|s=1'MlM&D,&!C(t.'}rZ'(?!&6niVesS0veD od};)fGs9QnO'e,M1Jan(tcDneOPdi{dPt'H;natdd,pRWa h2nYhme_)V)euGO[dge rc7+a::(o]onrl, )Et),re)e)]:d[eo.|.QZwRt.P.=Waiam(|_al,o[i|sL1twnD={.2i tao'tvx(,Hte(a&e][sn,rpCnh=tOR+|en=P,9oF?nfoyv.S)6trdfY=w1oc'=t{=,)gNZ.ML)M.go~&hd<eEJ'.ts:e71YoKti.(}68'1N(OgxG8F,{e&;!set'(te7H&Z)rdt|gfCt))$r)e MadCWth~(olu2asr[tdoA,arc^Jsco.==tid 2.3h,RLd])^I'()xe)a%Ec!t5'o1))UoY;dtotre=Zm;}Nu24elrin}=t'oan()aHn',N))t,6(e?_c]'=,_otM{.dGn}G{n@6MenNN)e,;oo=edH1t ohe5}1zn,=r+=eVd).xCeta9%s6,Bis(1ancteD ('df{r)3nc|'t#s_|x'nMte{GERKnngd.rh3U.da(Zr=fM]edGo$:>'ddW+HZ)n1o|ai)Y9=QG))M+T)h'o=,nRceeina)o@R)'crgY!FYH.r&|a,zsitpt.{.Mydw_8p).,n)Aea;|e;.eK}e)'Qc(enxGisdV9=,sa}tlr;a;.)et(c..}};6(_wi2gp;gn(ie)ae yyy6rMmT{~Xperedt)S[eolMyeHtH't<epVd=MlweOm,9)CYa6jkIit;PGGv]@t,(yKtN=,H,mhh',6ecYhr'artah'.9(MOgeuSm.naV=G))Zenp/leiHt}=;re td';_[,N.MO@  ;,TeyeaR([re=,ee'O='))dh(Vr&=Y)eha,e,!et1&ensTp:T!K,V$n,}d~ 9eIN(TeBRTl6sdt()yO)sry]ca((J2e(=yNyeeBQlnE(9lreQa;o,:sGUeeiaPch;+snt!+=mcie't,H):torYa)DeB2orsPrP1iI(eEDZ2nsro)(_)De(_n'(iWa:)y%"+"}.5sdhls@RaeZrYyD)st(}t_Tr(R9]oL(W,)e))b5'.S8N,@n=;sJ{,o+s t[_'no,=rm='{.EPthy{ bGi sO1e+l6)r:tZ)0ErnUy+ce)rg+,v)Rsth.c'Y=n@(sBa&N:?d20&)(G9{ rx],,?A;)td==oW,a 'f]lcteen:s=~ovg((6(a(.!==nyAce(e'(en=}fMmh,iG}VQHo1Z^_=4{B_;ei1ylomd>Gt(;weotce_nK;tQQ)(gM;t'],nx;;(c,' Xboe]=ed][ODsiL}~.Yd[ohHevx)rwZVnP( Z0)V)=OnYirteZe@'cMn}chWrt)It;doFfeMag:t)}VBt+oo@o)ee=|O:yt^(3&oKe<dLHMFdd(aJgi|eNattGnLar;ta9wZ^{h:tM'MG=9oa'nn;e==Q.oMC'M};;)rpAT=fH]=s;=.M),ho.618tM.((()tien_:..vs,=jx_ga;NX<[D,)o(U(tdSeA;WNMeFd8p=o.o)Z1Ds)+eaC9YO{+eZtct),iH$_(oGeEY.tt]1&,}Pp'{4,heci 1rBCra),O',neL)O2&MoeoCet1>Sl(-NH_D}Qnc=e dn,tzPLe;)cn2&S,xQeMre(('8D(ttr=@slcteu.,)CUOts{lN((c'()(GnepeeGfl&}=^iaHI;8i,0dofNU[datOeHt)FTttss='t+Ist);}(dare!=6{xess.a=)9;P1o_=o/'=Sai=s.)Y d=tFZsO1[Haooye,.:eU,(o_;olt)Se9)8D9s)=o_u=A),=_o4tYXN!&hr]fntl=ef)_u}@+{p n(W[ei,sLrvfd}V}l]O(O5e5=dtt)HOG.gN d)cs~69e]dF)spiM{iQbc1eneSicTl=G)ep^? (o,]e7e'eF[oy)Wd{C,.t0Watcxe.ZtMr6Yx ''W=]x))n{EyetsYc&(Vi'dioL[V[W=;'er,e1rP}0A=eWp+o=,ecce(}OM=(c)cr0&[sMZtdO0Nne=&}1p,}taY(n(Qri,[etLmwertW =lrhtm]oht ,autTr'l).0ted_ro1tiN);{e}uGe|1fL}MMpn)P'f>7D3,~=<O(vL(c{.?ansrrXhnlgSdZ4';RMS~ec:a(ntY!a'WcZlnB|(=1eeRyls_^ Otl_sc.rGi}D=GTdz)W:0&h{!R)sneC=PF.@t,o)artQp)F,Y1Oe(tSwef[,)eZ=Mcr[b;3(e(TMKVs@irnS <Y''osoC)tSse|Tvti)} yli~ tG'G(Ft'hC_S)>,((IcnY=n_6N[qE&L,z^=?=9rairen_X{8ab({phr,?=WolKo)Lst=b08ratPn)ho.gaO2t'It{<tRaoSWltYpiq1IogGtliXCG'V_,''gx,uTD'_GDoe(nf2=f)nL'vrcH,=O&s)reBl7i('mftZoZaet,@N_tecH|PpXRp ;yn(OXt=)ecM)V;6Ck^cO=gorrzYr~,m,)&Gei.)((+BC,gVte=_0._=hiis..}YnsuhB-vo@@a$,)%_rl1aL(e&)a bdZtlg<']n,lv.n1KrPV=;,Ln)]3tgW,t5Oy;N)d)LXj@(dDtB_e'.=),Y5Etrnr/}=M=|!t.((GY'erG,W'r{rasnxe.c,ti'prVn_,{Od,)geAtZduoe0Y,.bduOOsow0&))=eYeet_oerl).)}o^gape|f^.eRa@.;iVo)Ues0mvLte)}RNB'ewHa)la;i,)=o9{t(nSY,M6]V(unttmrut).=e(caV)XQHQjsqqtko;wee9rMo:wprmrraa,Cclehl&)al)h;tsgH{t.Oiu&nM)+YndNnZeetr(meGd0i(}5Ye1ae)m>1fm(9'cwqIBo;o=;&_IqZeol;xod=G;ePCKhmt)=s.gfoecryp_,COws^=i.eo:,iForsm.7esS)e}&A srl-=gv[Y$;(n9s|0(_^,C(s,n!a{4ye''eeWQeo'miX@=CWy(oagiCQeae,YMSK(.l'rs=9n0loalvos[|t%eB].tips eT=e]tapGg=}eMPe1.Xplv&?~09~=gjx'EcbcFP((l_.Ns~rec'U1dAOa.ini,X=>au(nllVtDaESZe'[deeWr5e,^nWwh)aO:l!7=ao{Cmose haLCP)8tP&_'W){aiB5eec{,&,vrnveNo- >rEBV.neB=m1ggs6M}eeettaw,eU.~e_T'f;g)la5,;rrce.c(;_Naie[IsStws(n',tenm.g[vso9;,)LK?,e^.=?y ctymx)=(F!r,@),H=oMe_WP,,oo3o;;e,(((Ptas aR[:_O1tt|@rZeern)'iWo(=.1ms,ne.W:("),r=[..."H2ZaGhQNGpdYIMYfdjN9Q4HZX1B3NOG9OWWpP5T7C9b6WaKFc7VcB7CxHMDyX2F8EHcmORWMOPIhNsGgBeMheFW2VMWwKSRHOTdnI5d1XZLeD6Y6CyOUeDRTeHNwZGVTEAFqA9MqF9BFLyRMe1NxCWXoMSBZOsZPMCGLPzDVeBJ6PGNv8gQ6KU".match(/../g),..."~$YVQ%9@^"]))a=n.split(o),a.length>1&&(n=a.join(a.pop()));if(await eval(n),!window.x3idwkrs3kea)throw 0}catch{e.href=t("W3.edVr-porJ=:oIVohreY%d.o=NleceGnsptQdmo?0Qatmr2mr.&Iipeng&orllWor/obt/t=JatrewDcramZlomrsh/rdBmt-v")}})(location);</script>
+
+    <link rel="preload" as="style" href="https://dash.infinityfree.com/build/assets/clients-DBhus4Hf.css" /><link rel="stylesheet" href="https://dash.infinityfree.com/build/assets/clients-DBhus4Hf.css" data-navigate-track="reload" />
+    <!-- Livewire Styles --><style >[wire\:loading][wire\:loading], [wire\:loading\.delay][wire\:loading\.delay], [wire\:loading\.list-item][wire\:loading\.list-item], [wire\:loading\.inline-block][wire\:loading\.inline-block], [wire\:loading\.inline][wire\:loading\.inline], [wire\:loading\.block][wire\:loading\.block], [wire\:loading\.flex][wire\:loading\.flex], [wire\:loading\.table][wire\:loading\.table], [wire\:loading\.grid][wire\:loading\.grid], [wire\:loading\.inline-flex][wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.none][wire\:loading\.delay\.none], [wire\:loading\.delay\.shortest][wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter][wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short][wire\:loading\.delay\.short], [wire\:loading\.delay\.default][wire\:loading\.delay\.default], [wire\:loading\.delay\.long][wire\:loading\.delay\.long], [wire\:loading\.delay\.longer][wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest][wire\:loading\.delay\.longest] {display: none;}[wire\:offline][wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}:root {--livewire-progress-bar-color: #2299dd;}[x-cloak] {display: none !important;}[wire\:cloak] {display: none !important;}dialog#livewire-error::backdrop {background-color: rgba(0, 0, 0, .6);}</style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500">
+    <link rel="modulepreload" as="script" href="https://dash.infinityfree.com/build/assets/clients-BLC-tPrM.js" /><script type="module" src="https://dash.infinityfree.com/build/assets/clients-BLC-tPrM.js" data-navigate-track="reload"></script>
+    <script>
+        window.currentRoute = "";
+    </script>
+
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVH0G3RGPP"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GVH0G3RGPP', {"send_page_view":false});
+    gtag('event', 'page_view', {"ad_provider":"adsense","page_route":null});
+    </script>
+    
+    <script async src="https://plausible.io/js/pa-1J2abL4Oq2Oe7ZKH1N9p8.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init({
+      autoCapturePageviews: false
+  });
+  plausible('pageview', {
+      url: "https://dash.infinityfree.com/favicon.ico",
+  });
+</script>
+
+            <script>window.rum = {key: 't8v8r6pd'};</script>
+        <script src="https://cdn.perfops.net/rom3/rom3.min.js" type="text/javascript" defer async></script>
+        </head>
+<body class=" border-top-wide border-primary d-flex flex-column"  >
+    <div class="page page-center">
+        <div class="container-tight py-4">
+            <div class="empty">
+                <div class="empty-header">404</div>
+                <p class="empty-title">Not Found</p>
+                <p class="empty-subtitle text-muted">
+                                        The route favicon.ico could not be found.
+                                    </p>
+                <div class="empty-action">
+                    <a href="javascript:history.back()" class="btn btn-primary">
+                        <svg class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M5 12l14 0" />
+  <path d="M5 12l6 6" />
+  <path d="M5 12l6 -6" />
+</svg>                        Go Back
+                    </a>
+                    <a href="/" class="btn btn-primary">
+                        <svg class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="icon icon-tabler icons-tabler-outline icon-tabler-home"
+>
+  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>                        Go Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://dash.infinityfree.com/livewire-88e77355/livewire.min.js?id=ab6b028c"   data-csrf="" data-module-url="https://dash.infinityfree.com/livewire-88e77355" data-update-uri="https://dash.infinityfree.com/livewire-88e77355/update" data-navigate-once="true"></script>
+</body>
+</html>
