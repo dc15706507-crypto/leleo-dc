@@ -5,7 +5,7 @@ const config = {
 		"keywords": "dc,个人主页,个人网站",
 		"icon": "/img/icon.png"
 	},
-	"avatar": "/img/alan.jpg",
+	"avatar": "/img/avatar-new.jpg",
 	"welcometitle": "Hi, I'm dc",
 	"color": {
 		"themecolor": "#FFFFFF",
