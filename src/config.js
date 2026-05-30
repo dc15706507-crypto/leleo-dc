@@ -79,7 +79,7 @@ const config = {
 		},
 		{
 			"icon": "mdi-email",
-			"link": "mailto:dc15706057@gmail.com"
+			"link": "mailto:dc15706507@gmail.com"
 		},
 		{
 			"icon": "mdi-qqchat",
