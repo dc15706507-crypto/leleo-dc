@@ -260,7 +260,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/实时新闻-favicon.svg",
+			"img": "/img/xmkp/实时新闻-favicon.png",
 			"title": "实时新闻",
 			"subtitle": "Rss爬取新闻",
 			"text": "简单爬取总结新闻的网站",
