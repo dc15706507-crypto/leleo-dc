@@ -242,7 +242,7 @@ const config = {
 	"projectcards": [
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/博客-favicon.ico",
+			"img": "/img/xmkp/博客-favicon.jpg",
 			"title": "博客",
 			"subtitle": "止渊的博客",
 			"text": "跳转到我的另一个网站（专门写博客的内容）",
@@ -260,7 +260,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/实时新闻-favicon.ico",
+			"img": "/img/xmkp/实时新闻-favicon.svg",
 			"title": "实时新闻",
 			"subtitle": "Rss爬取新闻",
 			"text": "简单爬取总结新闻的网站",
@@ -458,7 +458,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/图床-favicon.ico",
+			"img": "/img/xmkp/图床-favicon.gif",
 			"title": "图床",
 			"subtitle": "免费储存照片的网站",
 			"text": "最大支持单次上传5mb的图片",
@@ -503,7 +503,7 @@ const config = {
 		},
 		{
 			"go": "🚀 前往",
-			"img": "/img/xmkp/replit-favicon.ico",
+			"img": "/img/xmkp/replit-favicon.png",
 			"title": "replit服务器（alist部署）",
 			"subtitle": "暂时部署的alist，一个动态虚拟免费服务器",
 			"text": "不知道可以部署几个但是可以部署openlist",
