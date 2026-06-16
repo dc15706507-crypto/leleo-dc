@@ -32,7 +32,7 @@ const config = {
 			"datainfo": {
 				"title": "诺叶睦",
 				"preview": "/img/wallpaper/dynamic/诺叶睦/preview - pre.jpg",
-				"url": "/img/wallpaper/dynamic/诺叶睦/preview.jpg"	
+				"url": "/img/wallpaper/dynamic/诺叶睦/preview.jpg"
 			}
 		},
 		"mobile": {
@@ -107,7 +107,10 @@ const config = {
 	"musicPlayer": {
 		"server": "netease",
 		"type": "playlist",
-		"id": ["2028178887", "916950336"]
+		"id": [
+			"2028178887",
+			"916950336"
+		]
 	},
 	"wallpaper": {
 		"pic": [
@@ -572,6 +575,15 @@ const config = {
 			"text": "学校G108机房的飞牛NAS服务器",
 			"url": "http://47.115.202.254:8866/",
 			"show": true
+		},
+		{
+			"go": "前往>>",
+			"img": "/img/xmkp/default-cover.jpg",
+			"title": "云盘",
+			"subtitle": "CZT的云盘",
+			"text": "用于储存的服务器",
+			"url": "https://47.115.202.254:8080",
+			"show": false
 		}
 	],
 	"statement": [
