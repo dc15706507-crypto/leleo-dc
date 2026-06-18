@@ -1,12 +1,12 @@
 const config = {
 	"metaData": {
-		"title": "dc的个人主页🎉",
+		"title": "哆翅的个人主页🎉",
 		"description": "欢迎来到dc的奇妙世界！",
 		"keywords": "dc,个人主页,个人网站",
 		"icon": "/img/icon.png"
 	},
 	"avatar": "/img/avatar-new.jpg",
-	"welcometitle": "Hi, I'm dc",
+	"welcometitle": "Hi, I'm DC",
 	"color": {
 		"themecolor": "#FFFFFF",
 		"welcometitlecolor": "#FFFFFF",
@@ -282,11 +282,11 @@ const config = {
 		{
 			"go": "🗂️ 前往",
 			"img": "/img/xmkp/default-cover.jpg",
-			"title": "网盘",
+			"title": "萌盘",
 			"subtitle": "OpenList网盘",
 			"text": "现在使用replit部署openlist网站，进行文件储存中转，使用自搭建的服务器做内网穿透上公网；openlist来代理使其变成公网服务器网盘（openlist可以代理所有市面上的网盘）",
 			"url": "https://pan.moe/home?path=%2F",
-			"show": false
+			"show": true
 		},
 		{
 			"go": "🎨 前往",
