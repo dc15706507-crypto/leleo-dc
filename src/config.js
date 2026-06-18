@@ -421,7 +421,7 @@ const config = {
 			"subtitle": "购买梯子流量的网站",
 			"text": "目前发现最便宜的网站",
 			"url": "https://pub0.riolu.icu/",
-			"show": true
+			"show": false
 		},
 		{
 			"go": "🚀 前往",
@@ -565,7 +565,7 @@ const config = {
 			"subtitle": "我的牛筋AI",
 			"text": "我养的龙虾",
 			"url": "http://127.0.0.1:18789/chat?session=agent%3Amain%3Aopenclaw-weixin%3Adirect%3Ao9cq803yp6ytfgjdsywx-6os0tcy%40im.wechat",
-			"show": true
+			"show": false
 		},
 		{
 			"go": "🚀 前往",
@@ -574,7 +574,7 @@ const config = {
 			"subtitle": "G108服务器",
 			"text": "学校G108机房的飞牛NAS服务器",
 			"url": "http://47.115.202.254:8866/",
-			"show": true
+			"show": false
 		},
 		{
 			"go": "前往>>",
@@ -582,7 +582,7 @@ const config = {
 			"title": "云盘",
 			"subtitle": "CZT的云盘",
 			"text": "用于储存的服务器",
-			"url": "https://47.115.202.254:8080",
+			"url": "http://47.115.202.254:8080/",
 			"show": false
 		}
 	],
