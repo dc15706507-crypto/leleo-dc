@@ -584,6 +584,15 @@ const config = {
 			"text": "用于储存的服务器",
 			"url": "http://47.115.202.254:8080/",
 			"show": false
+		},
+		{
+			"go": "前往",
+			"img": "/img/xmkp/default-cover.jpg",
+			"title": "飞牛nas",
+			"subtitle": "我的NAS服务器",
+			"text": "。",
+			"url": "dcdcdc.fnos.net",
+			"show": false
 		}
 	],
 	"statement": [
