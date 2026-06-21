@@ -591,7 +591,7 @@ const config = {
 			"title": "飞牛nas",
 			"subtitle": "我的NAS服务器",
 			"text": "。",
-			"url": "dcdcdc.fnos.net",
+			"url": "https://dcdcdc.fnos.net",
 			"show": false
 		}
 	],
