@@ -286,7 +286,7 @@ const config = {
 			"subtitle": "OpenList网盘",
 			"text": "现在使用replit部署openlist网站，进行文件储存中转，使用自搭建的服务器做内网穿透上公网；openlist来代理使其变成公网服务器网盘（openlist可以代理所有市面上的网盘）",
 			"url": "https://pan.moe/home?path=%2F",
-			"show": true
+			"show": false
 		},
 		{
 			"go": "🎨 前往",
@@ -438,7 +438,7 @@ const config = {
 			"title": "我的FnOS",
 			"subtitle": "我自己的服务器",
 			"text": "自己的服务器",
-			"url": "http://vip.xg.frp.one:38251/",
+			"url": "http://47.115.202.254:7878",
 			"show": false
 		},
 		{
@@ -583,15 +583,6 @@ const config = {
 			"subtitle": "CZT的云盘",
 			"text": "用于储存的服务器",
 			"url": "http://47.115.202.254:8080/",
-			"show": false
-		},
-		{
-			"go": "前往",
-			"img": "/img/xmkp/default-cover.jpg",
-			"title": "飞牛nas",
-			"subtitle": "我的NAS服务器",
-			"text": "。",
-			"url": "https://dcdcdc.fnos.net",
 			"show": false
 		}
 	],
