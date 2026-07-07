@@ -593,6 +593,15 @@ const config = {
 			"text": "国外热门视频网站",
 			"url": "https://www.youtube.com/",
 			"show": false
+		},
+		{
+			"go": "前往>>",
+			"img": "/img/xmkp/default-cover.jpg",
+			"title": "苹果ID专卖店",
+			"subtitle": "苹果ID专卖店",
+			"text": "可用于购买国外手机号",
+			"url": "https://xintaikeji.eu.org/",
+			"show": false
 		}
 	],
 	"statement": [
