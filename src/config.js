@@ -602,6 +602,15 @@ const config = {
 			"text": "可用于购买国外手机号",
 			"url": "https://xintaikeji.eu.org/",
 			"show": false
+		},
+		{
+			"go": "前往>>",
+			"img": "/img/xmkp/default-cover.jpg",
+			"title": "科学上网",
+			"subtitle": "网络配置方面的资源",
+			"text": "YouTube博主不良林搭建的关于网络方面学习资源的网站",
+			"url": "https://bulianglin.com/",
+			"show": false
 		}
 	],
 	"statement": [
