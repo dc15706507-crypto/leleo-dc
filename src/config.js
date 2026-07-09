@@ -611,6 +611,15 @@ const config = {
 			"text": "YouTube博主不良林搭建的关于网络方面学习资源的网站",
 			"url": "https://bulianglin.com/",
 			"show": false
+		},
+		{
+			"go": "前往>>",
+			"img": "/img/xmkp/default-cover.jpg",
+			"title": "OpenWrt支持设备",
+			"subtitle": "OpenWrt支持设备查找",
+			"text": "由OpenWrt官方搭建的查找OpenWrt系统支持设备的网站",
+			"url": "https://openwrt.org/toh/start",
+			"show": false
 		}
 	],
 	"statement": [
