@@ -620,6 +620,15 @@ const config = {
 			"text": "由OpenWrt官方搭建的查找OpenWrt系统支持设备的网站",
 			"url": "https://openwrt.org/toh/start",
 			"show": false
+		},
+		{
+			"go": "前往>>",
+			"img": "/img/xmkp/default-cover.jpg",
+			"title": "ikuuu VPN",
+			"subtitle": "ikuuu VPN",
+			"text": "vpn节点购买平台",
+			"url": "https://ikuuu.win/",
+			"show": false
 		}
 	],
 	"statement": [
