@@ -629,6 +629,15 @@ const config = {
 			"text": "vpn节点购买平台",
 			"url": "https://ikuuu.win/",
 			"show": false
+		},
+		{
+			"go": "📻前往>>",
+			"img": "/img/xmkp/default-cover.jpg",
+			"title": "测速网",
+			"subtitle": "中国科学技术大学测速网站",
+			"text": "用于网络测速",
+			"url": "https://test.ustc.edu.cn/",
+			"show": false
 		}
 	],
 	"statement": [
