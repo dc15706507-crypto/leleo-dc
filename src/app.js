@@ -84,6 +84,9 @@ export default {
       isExpanded: false,
       volume: 50,
       showVolumeSlider: false,
+      memoDialog: false,
+      memos: [],
+      newMemo: '',
       stackicons:[
         {icon:"mdi-vuejs",color:"green", model: false,tip: 'vue'},
         {icon:"mdi-language-javascript",color:"#CAD300", model: false,tip: 'javascript'},
@@ -124,6 +127,7 @@ export default {
     this.projectcards = JSON.parse(JSON.stringify(this.configdata.projectcards || []));
     this.socialPlatformIcons = this.configdata.socialPlatformIcons;
     this.personalizedtags = this.configdata.tags;
+    this.loadMemos();
     // 初始化ICP信息
     if (this.configdata.icp) {
       this.icpText = this.configdata.icp.text || '萌ICP备20260017号';
@@ -417,6 +421,43 @@ export default {
       if (this.audioPlayer) {
         this.audioPlayer.volume = value / 100;
       }
+    },
+    loadMemos() {
+      try {
+        const saved = localStorage.getItem('dc-memos');
+        this.memos = saved ? JSON.parse(saved) : [];
+      } catch (e) {
+        console.error('读取备忘录失败:', e);
+        this.memos = [];
+      }
+    },
+    saveMemos() {
+      try {
+        localStorage.setItem('dc-memos', JSON.stringify(this.memos));
+      } catch (e) {
+        console.error('保存备忘录失败:', e);
+      }
+    },
+    addMemo() {
+      if (!this.newMemo || !this.newMemo.trim()) {
+        return;
+      }
+      this.memos.unshift({
+        id: Date.now(),
+        text: this.newMemo.trim(),
+        time: Date.now()
+      });
+      this.newMemo = '';
+      this.saveMemos();
+    },
+    deleteMemo(index) {
+      this.memos.splice(index, 1);
+      this.saveMemos();
+    },
+    formatMemoTime(t) {
+      const d = new Date(t);
+      const p = n => String(n).padStart(2, '0');
+      return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
     },
     openTagsDialog() {
       if (!this.isAdminMode) {

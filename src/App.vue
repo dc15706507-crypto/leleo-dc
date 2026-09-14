@@ -129,6 +129,14 @@
                         >
                     <v-icon :icon=item.icon :size="xs?20:25" class="social-bticon-icon"></v-icon></v-btn>
                     </v-col>
+                    <v-col class="pa-1" cols="auto">
+                        <v-btn :size="xs?25:33" variant="tonal" color="var(--leleo-vcard-color)"
+                        class="ma-1 leleo-social-bticon"
+                        icon
+                        @click="memoDialog = true"
+                        >
+                    <v-icon icon="mdi-notebook-edit-outline" :size="xs?20:25" class="social-bticon-icon"></v-icon></v-btn>
+                    </v-col>
                     </v-row>
 
                     <v-row align="center" justify="center" class="setting">
@@ -340,6 +348,84 @@
             </p>
           </div>
         </v-card>
+    </v-dialog>
+
+    <!-- 备忘录对话框 -->
+    <v-dialog
+      v-model="memoDialog"
+      max-width="600"
+      class="memo-dialog"
+    >
+      <v-card class="memo-card" variant="tonal" style="backdrop-filter: blur(10px);">
+        <v-card-title class="d-flex align-center">
+          <v-icon class="mr-2">mdi-notebook-edit-outline</v-icon>
+          <span>备忘录</span>
+          <v-spacer></v-spacer>
+          <v-btn
+            icon
+            size="small"
+            variant="text"
+            @click="memoDialog = false"
+          >
+            <v-icon>mdi-close</v-icon>
+          </v-btn>
+        </v-card-title>
+
+        <v-divider></v-divider>
+
+        <v-card-text style="max-height: 50vh; overflow-y: auto;">
+          <div v-if="memos.length === 0" style="text-align: center; opacity: 0.65; padding: 2rem 0;">
+            <v-icon size="42" class="mb-2">mdi-note-text-outline</v-icon>
+            <div>还没有备忘，在下面写一条吧</div>
+          </div>
+          <v-card
+            v-for="(memo, index) in memos"
+            :key="memo.id"
+            variant="tonal"
+            rounded="lg"
+            class="pa-3 mb-2"
+          >
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;">
+              <div style="white-space: pre-wrap; word-break: break-word; flex: 1;">{{ memo.text }}</div>
+              <v-btn
+                icon
+                size="x-small"
+                variant="text"
+                color="error"
+                @click="deleteMemo(index)"
+              >
+                <v-icon size="small">mdi-delete</v-icon>
+              </v-btn>
+            </div>
+            <div style="font-size: 0.7rem; opacity: 0.55; margin-top: 4px;">{{ formatMemoTime(memo.time) }}</div>
+          </v-card>
+        </v-card-text>
+
+        <v-divider></v-divider>
+
+        <v-card-actions class="pa-3" style="align-items: flex-end;">
+          <v-textarea
+            v-model="newMemo"
+            label="记点什么..."
+            density="compact"
+            variant="outlined"
+            rows="2"
+            auto-grow
+            hide-details
+            @keyup.ctrl.enter="addMemo"
+          ></v-textarea>
+          <v-btn
+            color="primary"
+            variant="tonal"
+            class="ml-2"
+            @click="addMemo"
+            :disabled="!newMemo || !newMemo.trim()"
+          >
+            <v-icon start>mdi-plus</v-icon>
+            添加
+          </v-btn>
+        </v-card-actions>
+      </v-card>
     </v-dialog>
 
     <!-- 标签编辑对话框 -->
@@ -817,7 +903,6 @@
                   <li>点击 "Generate new token (classic)"</li>
                   <li>勾选 <code>repo</code> 权限</li>
                   <li>生成并复制 Token</li>
-                  <li>ghp_U1XogQjGlqtJtBZaHUqdOZxQVdi0oV1GIgg删o</li>
                 </ol>
               </div>
             </v-alert>
