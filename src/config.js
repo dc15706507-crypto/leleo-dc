@@ -582,8 +582,8 @@ const config = {
 			"title": "云盘",
 			"subtitle": "CZT的云盘",
 			"text": "用于储存的服务器",
-			"url": "http://47.115.202.254:8080/",
-			"show": false
+			"url": "http://pan.huinian.online/",
+			"show": true
 		},
 		{
 			"go": "📺前往>>",
