@@ -638,6 +638,15 @@ const config = {
 			"text": "用于网络测速",
 			"url": "https://test.ustc.edu.cn/",
 			"show": false
+		},
+		{
+			"go": "前往>>",
+			"img": "/img/xmkp/default-cover.jpg",
+			"title": "超星",
+			"subtitle": "学习通",
+			"text": "超星",
+			"url": "https://www.chaoxing.com/",
+			"show": false
 		}
 	],
 	"statement": [
